@@ -1,0 +1,103 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #0E1035;
+}
+header {
+    margin: 44px 120px 40px 120px;
+}
+main {
+    margin: 44px 120px 44px 120px;
+    width: 1800px;
+    height: 1725px;
+}
+h4 {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25.235px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    padding-left: 500px;
+}
+h4 span {
+    color: var(--Blue-1, #2F80ED);
+    font-family: 'Poppins', sans-serif;
+    font-size: 25.235px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 35.329px */
+    
+}
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+    width: 1500px;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
+    height: 580px;
+}
+.img {
+    width: 50%;
+    height: 100%;
+}
+.text {
+    width: 50%;
+    height: 100%;
+}
+h2 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+h2 span {
+    color: var(--Blue-1, #2F80ED);
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+p {
+    color: #BDBBBB;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 36px */
+    width: 642px;
+}
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0;
+    margin: 0;
+    width: 800px;
+    height: 220px;
+}
+a {
+    text-decoration: underline white;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+    text-decoration-line: underline;
+}

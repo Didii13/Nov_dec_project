@@ -137,6 +137,13 @@ p {
     font-weight: 700;
     line-height: 140%; /* 44.8px */
 }
+#service {
+    color: var(--color-secondary, #676767);
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+}
 @media screen {min-width: ;
     
 }
